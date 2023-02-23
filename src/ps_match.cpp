@@ -1,6 +1,13 @@
 #include <Rcpp.h>
 using namespace Rcpp;
 
+//' Propensity score matching
+//' @param x Numeric vector with probablities.
+//' @returns A list
+//' @examples
+//' set.seed(7123)
+//' x <- runif(10)
+//' ps_match(x)
 //' @export
 // [[Rcpp::export]]
 List ps_match(const NumericVector & x) {
