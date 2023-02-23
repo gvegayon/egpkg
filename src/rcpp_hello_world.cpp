@@ -5,6 +5,7 @@ using namespace Rcpp;
 //' Hello world from Rcpp
 //' @return A list with two vectors (`x`, `y`).
 //' @examples
+//' # Testing the function
 //' rcpp_hello_world()
 //' @export
 // [[Rcpp::export]]

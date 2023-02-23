@@ -13,5 +13,6 @@ A list with two vectors (\code{x}, \code{y}).
 Hello world from Rcpp
 }
 \examples{
+# Testing the function
 rcpp_hello_world()
 }
